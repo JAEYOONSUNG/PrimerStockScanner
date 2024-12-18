@@ -23,11 +23,12 @@ This program is designed to scan a laboratory primer stock list (Excel format) a
 
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install [package]
    ```
 
 3. Ensure the following tools/libraries are installed:
    - **Python 3.8+**
+   - **snapgene_reader**
    - **Biopython**: For DNA sequence handling.
    - **Pandas**: For working with Excel files.
    - **openpyxl**: For Excel file output.
